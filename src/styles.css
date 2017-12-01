@@ -3,3 +3,15 @@
 body {
   margin: 0
 }
+
+/*Position the font correctly*/
+.chord {
+  position: absolute;
+  font-family: ChordFont;
+  font-weight: normal !important;
+  font-style: normal !important;
+}
+.chord .inner {
+  position: relative;
+  top: -1em; /* The container will need to have a line-height of approx 2em for this to work */
+}

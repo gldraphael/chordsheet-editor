@@ -5,3 +5,7 @@
 .cs-preview h1.cs-preview-title {
 
 }
+
+.cs-preview .cs-preview-content {
+  line-height: 2em
+}
