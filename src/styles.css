@@ -1,10 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
-
 body {
   margin: 0
 }
 
-/*Position the font correctly*/
+/* The chord chord font */
+@font-face {
+  font-family: 'ChordFont';
+  src: url('/assets/fonts/chordfont/MuseJazz.eot?#iefix') format('embedded-opentype'),  url('/assets/fonts/chordfont/MuseJazz.woff') format('woff'), url('/assets/fonts/chordfont/MuseJazz.ttf')  format('truetype'), url('/assets/fonts/chordfont/MuseJazz.svg#MuseJazz') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**
+Position the chords correctly.
+This cannot go in the component styles because the
+HTML for the chords is not rendered by Angular.
+*/
 .chord {
   position: absolute;
   font-family: ChordFont;
