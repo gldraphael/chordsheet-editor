@@ -1,3 +1,4 @@
+import { Song } from './../models/Song';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./editor.component.css']
 })
 export class EditorComponent implements OnInit {
+
+  song: Song = {
+    title: 'Happy birthday',
+    content:`Happy [G]birthday to [D]you!
+Happy [D7]birthday to [G]you!
+Happy [Bm]birthday! Happy [Em]birthday!
+Happy [G]birthday [D]to [G]you!`
+  }
 
   constructor() { }
 

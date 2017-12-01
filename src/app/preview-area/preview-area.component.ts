@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Song } from './../models/Song';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-preview-area',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./preview-area.component.css']
 })
 export class PreviewAreaComponent implements OnInit {
+
+  @Input() song: Song
 
   constructor() { }
 

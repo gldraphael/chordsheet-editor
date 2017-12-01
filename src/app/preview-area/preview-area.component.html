@@ -1,5 +1,6 @@
-<div class="cs-preview">
-  <h1 class="cs-preview-title">Writing a node console app in Typescript</h1>
+<div class="cs-preview" *ngIf="song">
+  <h1 class="cs-preview-title">{{ song.title }}</h1>
   <div class="cs-preview-content">
+    {{ song.content }}
   </div>
 </div>

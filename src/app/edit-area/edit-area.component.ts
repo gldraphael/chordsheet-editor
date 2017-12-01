@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Song } from '../models/Song';
 
 @Component({
   selector: 'app-edit-area',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./edit-area.component.css']
 })
 export class EditAreaComponent implements OnInit {
+
+  @Input() song: Song
 
   constructor() { }
 

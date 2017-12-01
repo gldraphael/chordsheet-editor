@@ -1,6 +1,7 @@
 <div class="cs-edit" style="position: relative;">
   <textarea
     placeholder="Song title"
+    [(ngModel)]="song.title"
     class="cs-edit-title"></textarea>
   <textarea
     placeholder="Happy [G]birthday to [D]you!
@@ -8,5 +9,6 @@ Happy [D7]birthday to [G]you!
 Happy [Bm]birthday! Happy [Em]birthday!
 Happy [G]birthday [D]to [G]you!
 "
+    [(ngModel)]="song.content"
     class="cs-edit-content"></textarea>
 </div>

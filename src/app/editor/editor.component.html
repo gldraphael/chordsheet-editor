@@ -1,10 +1,10 @@
 <section class="cs-master-editor">
   <div class="editor-grid">
     <div class="pane">
-      <app-edit-area></app-edit-area>
+      <app-edit-area [song]="song"></app-edit-area>
     </div>
     <div class="pane border-left">
-      <app-preview-area></app-preview-area>
+      <app-preview-area [song]="song"></app-preview-area>
     </div>
   </div>
 </section>
