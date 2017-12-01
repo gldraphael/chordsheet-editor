@@ -8,13 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EditorComponent implements OnInit {
 
-  song: Song = {
-    title: 'Happy birthday',
-    content:`Happy [G]birthday to [D]you!
+  song: Song = new Song (
+    'Happy birthday',
+`Happy [G]birthday to [D]you!
 Happy [D7]birthday to [G]you!
 Happy [Bm]birthday! Happy [Em]birthday!
 Happy [G]birthday [D]to [G]you!`
-  }
+  )
 
   constructor() { }
 
