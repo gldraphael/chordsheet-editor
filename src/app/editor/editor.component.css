@@ -1,0 +1,15 @@
+.editor-grid {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 0;
+  grid-auto-rows: minmax(100%, 100%);
+}
+
+.pane {
+
+}
+
+.border-left {
+  border-left: 1px solid #e5eff5;
+}
