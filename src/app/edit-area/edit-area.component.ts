@@ -28,10 +28,13 @@ export class EditAreaComponent implements OnInit {
     // Setup our content editor area using codemirror
     var editor = CodeMirror(
       document.getElementById("cs-edit-content-area"), {
-        lineNumbers: true,
+        lineNumbers: false,
         mode:"markdown",
         lineWrapping: true,
-        value: this.song.content
+        value: this.song.content,
+        viewportMargin: Infinity,
+        placeholder: "Enter [G7]lyrics with [F]chords...",
+        tabindex: 2
       }
     );
 

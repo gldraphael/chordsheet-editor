@@ -3,6 +3,17 @@ body {
   margin: 0
 }
 
+.CodeMirror {
+  height: auto;
+}
+
+.CodeMirror-code .CodeMirror-line {
+  color: #404d54;
+  font-family: Consolas,monaco,monospace;
+  font-size: 1.3rem;
+  padding: 0;
+}
+
 /* The chord chord font */
 @font-face {
   font-family: 'ChordFont';
