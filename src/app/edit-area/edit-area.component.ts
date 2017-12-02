@@ -13,6 +13,16 @@ export class EditAreaComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+    // Resize the text area for the title as required
+    // Code adapted from: https://stackoverflow.com/a/7745840
+    var textarea = document.getElementById("cs-edit-title-textarea");
+    var heightLimit = 200; /* Maximum height: 200px */
+
+    textarea.oninput = function() {
+      textarea.style.height = ""; /* Reset the height*/
+      textarea.style.height = Math.min(textarea.scrollHeight, heightLimit) + "px";
+    };
   }
 
 }
