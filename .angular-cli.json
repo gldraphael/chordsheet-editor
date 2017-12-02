@@ -20,7 +20,8 @@
       "prefix": "app",
       "styles": [
         "styles.css",
-        "../node_modules/normalize.css/normalize.css"
+        "../node_modules/normalize.css/normalize.css",
+        "../node_modules/codemirror/lib/codemirror.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
