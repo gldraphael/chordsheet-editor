@@ -1,5 +1,5 @@
-import { Song } from './../models/Song';
-import { Component, OnInit, Input } from '@angular/core';
+import { Song } from './../models/Song'
+import { Component, OnInit, Input } from '@angular/core'
 
 @Component({
   selector: 'app-preview-area',
