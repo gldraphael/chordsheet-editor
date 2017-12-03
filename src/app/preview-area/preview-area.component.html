@@ -1,7 +1,5 @@
 <div class="cs-preview" *ngIf="song">
   <h1 class="cs-preview-title" *ngIf="song.title">{{ song.title }}</h1>
   <h1 class="cs-preview-title" *ngIf="!song.title">Untitled</h1>
-  <div class="cs-preview-content" [innerHtml]="song.toHtml()">
-
-  </div>
+  <div class="cs-preview-content" [innerHtml]="song.toHtml()"></div>
 </div>

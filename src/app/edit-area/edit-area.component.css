@@ -6,6 +6,7 @@
   padding: 4vw;
 }
 
+/* Classes for use with table layouts */
 .row {
   display: table-row;
 }
