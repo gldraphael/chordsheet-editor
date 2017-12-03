@@ -1,16 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
-body {
-  margin: 0
+
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
 
+* {
+  box-sizing: border-box
+}
+
+body {
+  margin: 0;
+  font-family: system;
+  height: 100vh
+}
+
+/* CodeMirror styling */
 .CodeMirror {
-  height: auto;
+  height: auto !important;
 }
 
 .CodeMirror-code .CodeMirror-line {
   color: #404d54;
   font-family: Consolas,monaco,monospace;
-  font-size: 1.3rem;
+  font-size: 16px;
+  line-height: 1.6;
   padding: 0;
 }
 
