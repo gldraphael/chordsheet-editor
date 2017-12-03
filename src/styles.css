@@ -31,6 +31,16 @@ body {
   padding: 0;
 }
 
+.CodeMirror .CodeMirror-code .cm-link {
+  color: #3eb0ef;
+  text-decoration: none;
+}
+
+.CodeMirror .CodeMirror-code .cm-url {
+  color: #aab2b3;
+  text-decoration: underline
+}
+
 /* The chord chord font */
 @font-face {
   font-family: 'ChordFont';

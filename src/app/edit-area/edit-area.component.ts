@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core'
 import { Song } from '../models/Song'
 import * as CodeMirror from 'codemirror'
+import 'codemirror/mode/markdown/markdown'
 
 @Component({
   selector: 'app-edit-area',
