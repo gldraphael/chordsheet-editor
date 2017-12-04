@@ -41,6 +41,10 @@ body {
   text-decoration: underline
 }
 
+.CodeMirror .CodeMirror-code .cm-header {
+  color: #343f44;
+}
+
 /* The chord chord font */
 @font-face {
   font-family: 'ChordFont';
@@ -142,23 +146,32 @@ h6 tt, h6 code {
 
 
 h2 {
-  font-size: 24px;
   border-bottom: 1px solid #cccccc;
   color: black;
 }
 
+.CodeMirror .CodeMirror-code .cm-header.cm-header-2,
+.CodeMirror .CodeMirror-code .cm-header.cm-header-1,
+h2 {
+  font-size: 24px;
+}
+
+.CodeMirror .CodeMirror-code .cm-header.cm-header-3,
 h3 {
   font-size: 18px;
 }
 
+.CodeMirror .CodeMirror-code .cm-header.cm-header-4,
 h4 {
   font-size: 16px;
 }
 
+.CodeMirror .CodeMirror-code .cm-header.cm-header-5,
 h5 {
   font-size: 14px;
 }
 
+.CodeMirror .CodeMirror-code .cm-header.cm-header-6,
 h6 {
   color: #777777;
   font-size: 14px;
