@@ -1,4 +1,17 @@
-# ChordsheetEditor
+# Chordsheet Editor &middot; [![Build Status](https://travis-ci.org/gldraphael/chordsheet-editor.svg?branch=master)](https://travis-ci.org/gldraphael/chordsheet-editor)
+
+Chordsheet editor is a webapp to create chordsheets: sheets with lyrics and chords alone. The project is still under development.
+
+## TODO List
+
+* Tests
+* PDF Export
+* Better preview stylesheet
+* Better whitespace handling
+
+---
+
+**CLI Generated text follows (leaving it as is for the time-being):**
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.
 
