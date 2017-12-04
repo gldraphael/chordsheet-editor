@@ -13,3 +13,8 @@
   font-size: 32px
 }
 
+.cs-preview-content {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
