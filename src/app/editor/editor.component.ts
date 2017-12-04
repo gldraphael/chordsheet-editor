@@ -13,7 +13,16 @@ export class EditorComponent implements OnInit {
 `Happy [G]birthday to [D]you!
 Happy [D7]birthday to [G]you!
 Happy [Bm]birthday! Happy [Em]birthday!
-Happy [G]birthday [D]to [G]you!`
+Happy [G]birthday [D]to [G]you!
+
+---
+
+## Using the Chordsheet Editor
+
+* Type the lyrics as usual and enter the chords in square brackets [] as shown in the example above.
+* You may also use [markdown to format your content](http://commonmark.org/help/).
+
+**THIS IS A WORK IN PROGRESS**`
   )
 
   constructor() { }
