@@ -62,7 +62,11 @@ HTML for the chords is not rendered by Angular.
 }
 .chord .inner {
   position: relative;
-  top: -1em; /* The container will need to have a line-height of approx 2em for this to work */
+  top: -1em;
+}
+
+.chord-parent {
+  line-height: 2.4em
 }
 
 /*
