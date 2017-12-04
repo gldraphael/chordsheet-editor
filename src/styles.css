@@ -31,6 +31,15 @@ body {
   padding: 0;
 }
 
+.CodeMirror-wrap pre.CodeMirror-line {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
 .CodeMirror .CodeMirror-code .cm-link {
   color: #3eb0ef;
   text-decoration: none;
