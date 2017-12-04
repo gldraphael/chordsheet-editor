@@ -21,9 +21,16 @@ export class EditAreaComponent implements OnInit {
     const textarea = document.getElementById('cs-edit-title-textarea') as HTMLTextAreaElement
     const heightLimit = 200 /* Maximum height: 200px */
 
-    textarea.oninput = () => {
+    function adjustTextAreaHeight() {
       textarea.style.height = '' /* Reset the height*/
       textarea.style.height = Math.min(textarea.scrollHeight, heightLimit) + 'px'
+    }
+    // Adjust the text area height now...
+    adjustTextAreaHeight()
+
+    // and on every textarea input
+    textarea.oninput = () => {
+      adjustTextAreaHeight()
     }
 
     // Setup our content editor area using codemirror
