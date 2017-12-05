@@ -1,5 +1,7 @@
 # Chordsheet Editor &middot; [![Build Status](https://travis-ci.org/gldraphael/chordsheet-editor.svg?branch=master)](https://travis-ci.org/gldraphael/chordsheet-editor)
 
+[Link to the Editor](https://gldraphael.github.io/chordsheet-editor/)
+
 Chordsheet editor is a webapp to create chordsheets: sheets with lyrics and chords alone. The project is still under development.
 
 ## TODO List
