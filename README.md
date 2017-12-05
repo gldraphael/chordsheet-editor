@@ -2,7 +2,10 @@
 
 [Link to the Editor](https://gldraphael.github.io/chordsheet-editor/)
 
-Chordsheet editor is a webapp to create chordsheets: sheets with lyrics and chords alone. The project is still under development.
+Chordsheet editor is a webapp to create chordsheets: sheets with lyrics and chords alone.
+_The project is still under development._
+
+If you're only intereseted in the generation of the preview markup, check this repo: [`gldraphael/chordsheet`](https://github.com/gldraphael/chordsheet).
 
 ## TODO List
 
