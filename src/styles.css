@@ -51,6 +51,11 @@ body {
   color: #343f44;
 }
 
+.CodeMirror-cursors .CodeMirror-cursor {
+  border-color: #3eb0ef;
+  border-width: 3px;
+}
+
 /* The chord chord font */
 @font-face {
   font-family: 'ChordFont';
