@@ -910,9 +910,9 @@ chokidar@^1.4.1, chokidar@^1.4.2, chokidar@^1.6.0, chokidar@^1.7.0:
   optionalDependencies:
     fsevents "^1.0.0"
 
-chordsheet@1.0.0-dev.8:
-  version "1.0.0-dev.8"
-  resolved "https://registry.yarnpkg.com/chordsheet/-/chordsheet-1.0.0-dev.8.tgz#a9cf320bb7a63f39ff7e1351da285a41108387e4"
+chordsheet@1.0.0-dev.14:
+  version "1.0.0-dev.14"
+  resolved "https://registry.yarnpkg.com/chordsheet/-/chordsheet-1.0.0-dev.14.tgz#4723ecf49a051e77a75c435b18591364093d066d"
   dependencies:
     markdown-it "^8.1.0"
     markdown-it-regexp "^0.4.0"
