@@ -46,6 +46,8 @@ export class EditAreaComponent implements OnInit {
       }
     )
 
+    editor.focus()
+
     // Update the model on every change
     CodeMirror.on(
       editor.getDoc(),
