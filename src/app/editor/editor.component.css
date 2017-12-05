@@ -8,7 +8,8 @@
 }
 
 .pane {
-
+  display: flex;
+  overflow-x: scroll
 }
 
 .border-left {
