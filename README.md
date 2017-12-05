@@ -8,6 +8,7 @@ Chordsheet editor is a webapp to create chordsheets: sheets with lyrics and chor
 
 * Tests
 * PDF Export
+* Mobile friendly
 * Better preview stylesheet
 * Better whitespace handling
 
