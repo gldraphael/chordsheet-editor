@@ -6,8 +6,7 @@ import { AppComponent } from './app.component'
 import { EditorComponent } from './editor/editor.component'
 import { EditAreaComponent } from './edit-area/edit-area.component'
 import { PreviewAreaComponent } from './preview-area/preview-area.component';
-import { MenuComponent } from './menu/menu.component'
-
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +14,7 @@ import { MenuComponent } from './menu/menu.component'
     EditorComponent,
     EditAreaComponent,
     PreviewAreaComponent,
-    MenuComponent
+    ToolbarComponent
   ],
   imports: [
     BrowserModule, FormsModule
