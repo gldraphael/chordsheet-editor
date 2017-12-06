@@ -1,6 +1,6 @@
 <section class="cs-master-editor">
-  <div class="editor-grid">
-    <div class="pane">
+  <div [class.editor-grid]="isPreviewPaneVisible">
+    <div [class.pane]="isPreviewPaneVisible">
       <app-edit-area [song]="song"></app-edit-area>
     </div>
     <div class="pane border-left" *ngIf="isPreviewPaneVisible">
