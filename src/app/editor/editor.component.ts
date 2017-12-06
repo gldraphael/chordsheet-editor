@@ -1,4 +1,4 @@
-import { ToolbarCommandService } from './../toolbar/toolbar-command.service';
+import { ToolbarCommandService } from './../toolbar/toolbar-command.service'
 import { Song } from './../models/Song'
 import { Component, OnInit } from '@angular/core'
 

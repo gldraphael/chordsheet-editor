@@ -1,10 +1,10 @@
-import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+import { Injectable } from '@angular/core'
+import { BehaviorSubject } from 'rxjs/BehaviorSubject'
 
 @Injectable()
 export class ToolbarCommandService {
 
-  private _shouldShowPreviewPane = new BehaviorSubject<boolean>(true);
+  private _shouldShowPreviewPane = new BehaviorSubject<boolean>(true)
 
   public shouldShowPreviewPane () {
     return this._shouldShowPreviewPane

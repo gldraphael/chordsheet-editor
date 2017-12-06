@@ -1,5 +1,5 @@
-import { ToolbarCommandService } from './toolbar-command.service';
-import { Component, OnInit } from '@angular/core';
+import { ToolbarCommandService } from './toolbar-command.service'
+import { Component, OnInit } from '@angular/core'
 
 @Component({
   selector: 'app-toolbar',
