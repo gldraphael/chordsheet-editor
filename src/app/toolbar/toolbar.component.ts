@@ -1,3 +1,4 @@
+import { ToolbarCommandService } from './toolbar-command.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ToolbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private toolbarCommandService: ToolbarCommandService) { }
 
   ngOnInit() {
+  }
+
+  togglePreviewPane() {
+    console.log('toggling')
+    this.toolbarCommandService.togglePreviewPaneVisibility()
   }
 
 }

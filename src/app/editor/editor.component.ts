@@ -1,3 +1,4 @@
+import { ToolbarCommandService } from './../toolbar/toolbar-command.service';
 import { Song } from './../models/Song'
 import { Component, OnInit } from '@angular/core'
 
@@ -8,6 +9,7 @@ import { Component, OnInit } from '@angular/core'
 })
 export class EditorComponent implements OnInit {
 
+  isPreviewPaneVisible = true
   song: Song = new Song (
     'Happy birthday',
 `Happy [G]birthday to [D]you!
@@ -25,9 +27,12 @@ Happy [G]birthday [D]to [G]you!
 **THIS IS A WORK IN PROGRESS**`
   )
 
-  constructor() { }
+  constructor(private toolbarCommand: ToolbarCommandService) { }
 
   ngOnInit() {
+    this.toolbarCommand
+      .shouldShowPreviewPane()
+      .subscribe(shouldShow => this.isPreviewPaneVisible = shouldShow)
   }
 
 }
