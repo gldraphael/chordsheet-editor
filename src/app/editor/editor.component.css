@@ -19,3 +19,10 @@
 .border-left {
   border-left: 1px solid #e5eff5;
 }
+
+@media screen and (max-width: 460px) {
+  .cs-master-editor {
+    margin-top: 0;
+    margin-bottom: 47px
+  }
+}

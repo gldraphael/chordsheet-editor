@@ -25,17 +25,40 @@ nav ul {
   float: right
 }
 
-nav ul li {
+li {
   display: inline-block;
   font-size: 0.7em;
   margin: 17px 0 17px 15px;
   text-transform: uppercase
 }
 
-.border-bottom {
+.nav-border {
   border-bottom: 1px solid #e5eff5;
 }
 
-.border-top {
-  border-top: 1px solid #e5eff5;
+@media screen and (max-width: 460px) {
+  nav {
+    top: auto;
+    bottom: 0
+  }
+
+  .large-screen {
+    display: none
+  }
+
+  .nav-border {
+    border-bottom: none;
+    border-top: 1px solid #e5eff5;
+  }
+
+  nav ul {
+    margin: 0;
+    float: none;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  li {
+    margin: 17px 15px 17px 15px;
+  }
 }
