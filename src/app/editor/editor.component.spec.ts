@@ -1,6 +1,9 @@
+import { EditAreaComponent } from './../edit-area/edit-area.component';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing'
 
 import { EditorComponent } from './editor.component'
+import { PreviewAreaComponent } from '../preview-area/preview-area.component';
+import { FormsModule } from '@angular/forms';
 
 describe('EditorComponent', () => {
   let component: EditorComponent
@@ -8,7 +11,8 @@ describe('EditorComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EditorComponent ]
+      declarations: [ EditorComponent, EditAreaComponent, PreviewAreaComponent ],
+      imports: [ FormsModule ]
     })
     .compileComponents()
   }))

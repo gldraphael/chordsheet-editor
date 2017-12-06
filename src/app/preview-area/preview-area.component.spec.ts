@@ -1,5 +1,6 @@
+import { Song } from './../models/Song';
+import { FormsModule } from '@angular/forms';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing'
-
 import { PreviewAreaComponent } from './preview-area.component'
 
 describe('PreviewAreaComponent', () => {
@@ -8,7 +9,8 @@ describe('PreviewAreaComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PreviewAreaComponent ]
+      declarations: [ PreviewAreaComponent ],
+      imports: [ FormsModule ]
     })
     .compileComponents()
   }))

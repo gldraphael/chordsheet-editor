@@ -1,3 +1,4 @@
+import { FormsModule } from '@angular/forms';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing'
 
 import { EditAreaComponent } from './edit-area.component'
@@ -8,7 +9,8 @@ describe('EditAreaComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EditAreaComponent ]
+      declarations: [ EditAreaComponent ],
+      imports: [ FormsModule ]
     })
     .compileComponents()
   }))
