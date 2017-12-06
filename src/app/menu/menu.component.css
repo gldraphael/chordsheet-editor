@@ -1,0 +1,38 @@
+.title {
+  text-transform: capitalize;
+  margin: 15px 0;
+  display: inline-block
+}
+
+nav {
+  /* Get the position right */
+  position: fixed;
+  top: 0;
+  padding: 0 4vw;
+
+  /* Ensure it's on the top */
+  background: white;
+  width: 100%;
+  z-index: 10;
+
+  /* Add style for taste */
+  font-family: system-mono;
+  font-size: 0.9em;
+}
+
+nav ul {
+  margin: 0;
+  float: right
+}
+
+nav ul li {
+  display: inline-block
+}
+
+.border-bottom {
+  border-bottom: 1px solid #e5eff5;
+}
+
+.border-top {
+  border-top: 1px solid #e5eff5;
+}
