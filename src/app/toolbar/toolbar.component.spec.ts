@@ -1,8 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing'
 
 import { ToolbarComponent } from './toolbar.component'
-import { ToolbarCommandService } from './toolbar-command.service';
-import { By } from '@angular/platform-browser';
+import { ToolbarCommandService } from './toolbar-command.service'
+import { By } from '@angular/platform-browser'
 
 function getMobilePreviewElement(fixture: ComponentFixture<ToolbarComponent>) {
   const preview = fixture.debugElement.query(By.css('ul li:first-of-type a span.small-screen'))
