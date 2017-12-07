@@ -36,7 +36,16 @@ li {
   border-bottom: 1px solid #e5eff5;
 }
 
+.small-screen {
+  display: none
+}
+
 @media screen and (max-width: 460px) {
+
+  .small-screen {
+    display: inherit
+  }
+
   nav {
     top: auto;
     bottom: 0
@@ -62,3 +71,4 @@ li {
     margin: 17px 15px 17px 15px;
   }
 }
+

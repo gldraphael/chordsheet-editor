@@ -8,9 +8,16 @@ import { Component, OnInit } from '@angular/core'
 })
 export class ToolbarComponent implements OnInit {
 
+  editItemText: string
+
   constructor(private toolbarCommandService: ToolbarCommandService) { }
 
   ngOnInit() {
+    this.toolbarCommandService.shouldShowPreviewPane().subscribe(
+      visible => {
+        this.editItemText = visible ? "Edit" : "Preview"
+      }
+    )
   }
 
   togglePreviewPane() {
