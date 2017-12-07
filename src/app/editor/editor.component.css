@@ -25,4 +25,16 @@
     margin-top: 0;
     margin-bottom: 47px
   }
+
+  .editor-grid {
+    display: inherit
+  }
+
+  .editor-grid .pane {
+    display: none
+  }
+
+  .editor-grid .pane:last-of-type {
+    display: inherit
+  }
 }

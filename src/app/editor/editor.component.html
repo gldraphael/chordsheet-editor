@@ -3,7 +3,7 @@
     <div [class.pane]="isPreviewPaneVisible">
       <app-edit-area [song]="song"></app-edit-area>
     </div>
-    <div class="pane border-left" *ngIf="isPreviewPaneVisible">
+    <div [class.pane]="isPreviewPaneVisible" class="pane border-left" *ngIf="isPreviewPaneVisible">
       <app-preview-area [song]="song"></app-preview-area>
     </div>
   </div>
