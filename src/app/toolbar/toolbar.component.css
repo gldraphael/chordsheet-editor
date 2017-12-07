@@ -1,0 +1,74 @@
+.title {
+  text-transform: capitalize;
+  margin: 15px 0;
+  display: inline-block;
+  font-size: 0.9em;
+}
+
+nav {
+  /* Get the position right */
+  position: fixed;
+  top: 0;
+  padding: 0 4vw;
+
+  /* Ensure it's on the top */
+  background: white;
+  width: 100%;
+  z-index: 10;
+
+  /* Set the font for taste */
+  font-family: system-mono;
+}
+
+nav ul {
+  margin: 0;
+  float: right
+}
+
+li {
+  display: inline-block;
+  font-size: 0.7em;
+  margin: 17px 0 17px 15px;
+  text-transform: uppercase
+}
+
+.nav-border {
+  border-bottom: 1px solid #e5eff5;
+}
+
+.small-screen {
+  display: none
+}
+
+@media screen and (max-width: 460px) {
+
+  .small-screen {
+    display: inherit
+  }
+
+  nav {
+    top: auto;
+    bottom: 0
+  }
+
+  .large-screen {
+    display: none
+  }
+
+  .nav-border {
+    border-bottom: none;
+    border-top: 1px solid #e5eff5;
+  }
+
+  nav ul {
+    margin: 0;
+    float: none;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  li {
+    margin: 17px 15px 17px 15px;
+  }
+}
+
