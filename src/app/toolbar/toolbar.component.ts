@@ -15,7 +15,7 @@ export class ToolbarComponent implements OnInit {
   ngOnInit() {
     this.toolbarCommandService.shouldShowPreviewPane().subscribe(
       visible => {
-        this.editItemText = visible ? "Edit" : "Preview"
+        this.editItemText = visible ? 'Edit' : 'Preview'
       }
     )
   }
