@@ -9,7 +9,7 @@ function getMobilePreviewElement(fixture: ComponentFixture<ToolbarComponent>) {
   return preview.nativeElement as HTMLSpanElement
 }
 
-fdescribe('ToolbarComponent', () => {
+describe('ToolbarComponent', () => {
   let component: ToolbarComponent
   let fixture: ComponentFixture<ToolbarComponent>
   let toolbarCommandService: ToolbarCommandService
