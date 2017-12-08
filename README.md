@@ -14,32 +14,24 @@ If you're only intereseted in the generation of the preview markup, check this r
 * Better preview stylesheet
 * Better whitespace handling
 
----
+## Setting up your dev environment
 
-**CLI Generated text follows (leaving it as is for the time-being):**
+1. Install Angular CLI globally using: `npm install -g @angular/cli`
+1. [Optional] Install VS Code from [here](https://code.visualstudio.com).
+1. Clone this repo.
+1. `cd` into `chordsheed-editor` and run `ng serve`.
+1. Press <kbd>F5</kbd> within VS Code (or browse manually to `localhost:4200`)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.
+## Useful scripts and commands
 
-## Development server
+Command         | Description 
+----------------|--------------
+`ng serve`      | Start a local server for `chordsheet-editor`
+`ng lint`       | Run the linter
+`ng lint --fix` | Fix lint errors wherever possible
+`npm run test`  | Run karma tests
+`ng e2e`        | Run e2e tests. (E2E are to be written.)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
+**Code scaffolding:**
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
