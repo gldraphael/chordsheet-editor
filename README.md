@@ -9,9 +9,8 @@ If you're only intereseted in the generation of the preview markup, check this r
 
 ## TODO List
 
-* Tests
+* E2E Tests
 * PDF Export
-* Mobile friendly
 * Better preview stylesheet
 * Better whitespace handling
 
