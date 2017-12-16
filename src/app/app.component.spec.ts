@@ -6,6 +6,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component'
 import { EditAreaComponent } from './edit-area/edit-area.component'
 import { PreviewAreaComponent } from './preview-area/preview-area.component'
 import { ToolbarCommandService } from './toolbar/toolbar-command.service'
+import { PdfGeneratorService } from './pdf-generator.service';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -18,7 +19,7 @@ describe('AppComponent', () => {
         ToolbarComponent
       ],
       imports: [ FormsModule ],
-      providers: [ ToolbarCommandService ]
+      providers: [ ToolbarCommandService, PdfGeneratorService ]
     }).compileComponents()
   }))
   it('should create the app', async(() => {

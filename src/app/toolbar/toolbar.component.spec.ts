@@ -3,6 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing'
 import { ToolbarComponent } from './toolbar.component'
 import { ToolbarCommandService } from './toolbar-command.service'
 import { By } from '@angular/platform-browser'
+import { PdfGeneratorService } from '../pdf-generator.service'
 
 function getMobilePreviewElement(fixture: ComponentFixture<ToolbarComponent>) {
   const preview = fixture.debugElement.query(By.css('ul li:first-of-type a span.small-screen'))
@@ -22,7 +23,8 @@ describe('ToolbarComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ ToolbarComponent ],
       providers: [
-        { provide: ToolbarCommandService, useValue: toolbarCommandService }
+        { provide: ToolbarCommandService, useValue: toolbarCommandService },
+        PdfGeneratorService
       ]
     })
     .compileComponents()
