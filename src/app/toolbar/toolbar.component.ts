@@ -30,8 +30,9 @@ export class ToolbarComponent implements OnInit {
   }
 
   savePdf() {
-    var previewElement = document.getElementById('preview-area')
-    this.pdfService.toPdf(previewElement)
+    const previewElement = document.getElementById('preview-area')
+    const title = document.getElementsByClassName('cs-preview-title')[0].textContent
+    this.pdfService.toPdf(title, previewElement)
   }
 
 }

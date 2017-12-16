@@ -6,10 +6,25 @@ export class PdfGeneratorService {
 
   constructor() { }
 
-  public toPdf(element: HTMLElement) {
-    console.log('saving element:')
-    console.log(element)
-    html2pdf(element);
+  public toPdf(filename: string, element: HTMLElement) {
+    const options = {
+      margin: .75,
+      filename: filename.toLowerCase().endsWith('.pdf') ? filename : filename + '.pdf',
+      image: {
+        type: 'jpeg',
+        quality: 1
+      },
+      html2canvas: {
+        dpi: 300,
+        letterRendering: true
+      },
+      jsPDF: {
+        unit: 'in',
+        format: 'letter',
+        orientation: 'portrait'
+      }
+    }
+    html2pdf(element, options);
   }
 
 }
