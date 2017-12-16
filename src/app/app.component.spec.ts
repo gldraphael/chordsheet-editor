@@ -6,7 +6,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component'
 import { EditAreaComponent } from './edit-area/edit-area.component'
 import { PreviewAreaComponent } from './preview-area/preview-area.component'
 import { ToolbarCommandService } from './toolbar/toolbar-command.service'
-import { PdfGeneratorService } from './pdf-generator.service';
+import { PdfGeneratorService } from './pdf-generator.service'
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
