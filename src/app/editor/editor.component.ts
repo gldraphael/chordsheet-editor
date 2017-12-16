@@ -23,8 +23,7 @@ Happy [G]birthday [D]to [G]you!
 
 * Type the lyrics as usual and enter the chords in square brackets [] as shown in the example above.
 * You may also use [markdown to format your content](http://commonmark.org/help/).
-
-**THIS IS A WORK IN PROGRESS**`
+`
   )
 
   constructor(private toolbarCommand: ToolbarCommandService) { }

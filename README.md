@@ -1,18 +1,11 @@
 # Chordsheet Editor &middot; [![Build Status](https://travis-ci.org/gldraphael/chordsheet-editor.svg?branch=master)](https://travis-ci.org/gldraphael/chordsheet-editor)
 
-[Link to the Editor](https://gldraphael.github.io/chordsheet-editor/)
+<https://cseditor.com>
 
-Chordsheet editor is a webapp to create chordsheets: sheets with lyrics and chords alone.
-_The project is still under development._
+> A Free and Open Source Chordsheet Editor.
 
+This is a webapp to create chordsheets also referred to as chord charts.
 If you're only intereseted in the generation of the preview markup, check this repo: [`gldraphael/chordsheet`](https://github.com/gldraphael/chordsheet).
-
-## TODO List
-
-* E2E Tests
-* PDF Export
-* Better preview stylesheet
-* Better whitespace handling
 
 ## Setting up your dev environment
 
