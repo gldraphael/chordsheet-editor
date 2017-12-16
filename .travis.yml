@@ -22,6 +22,7 @@ script:
   - npm run lint
   - npm run test
   - npm run build.prod
+  - echo 'cseditor.com' > ./dist/CNAME
 
 deploy:
   provider: pages
