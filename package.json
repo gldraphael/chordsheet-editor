@@ -9,7 +9,7 @@
     "test": "ng test --sourcemaps=false",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build.prod": "ng build --prod --build-optimizer --progress false --base-href \"/chordsheet-editor/\""
+    "build.prod": "ng build --prod --build-optimizer --progress false"
   },
   "private": true,
   "dependencies": {
