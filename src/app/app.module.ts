@@ -1,3 +1,4 @@
+import { PdfGeneratorService } from './pdf-generator.service';
 import { BrowserModule } from '@angular/platform-browser'
 import { NgModule } from '@angular/core'
 import { FormsModule } from '@angular/forms'
@@ -19,9 +20,13 @@ import { ToolbarCommandService } from './toolbar/toolbar-command.service'
     ToolbarComponent
   ],
   imports: [
-    BrowserModule, FormsModule
+    BrowserModule,
+    FormsModule
   ],
-  providers: [ ToolbarCommandService ],
+  providers: [
+    ToolbarCommandService,
+    PdfGeneratorService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
