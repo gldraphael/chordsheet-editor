@@ -1,5 +1,5 @@
-import { Injectable } from '@angular/core';
-import * as html2pdf from 'html2pdf.js';
+import { Injectable } from '@angular/core'
+import * as html2pdf from 'html2pdf.js'
 
 @Injectable()
 export class PdfGeneratorService {
@@ -24,7 +24,7 @@ export class PdfGeneratorService {
         orientation: 'portrait'
       }
     }
-    html2pdf(element, options);
+    html2pdf(element, options)
   }
 
 }

@@ -1,6 +1,6 @@
 import { ToolbarCommandService } from './toolbar-command.service'
 import { Component, OnInit } from '@angular/core'
-import { PdfGeneratorService } from '../pdf-generator.service';
+import { PdfGeneratorService } from '../pdf-generator.service'
 
 @Component({
   selector: 'app-toolbar',
