@@ -4,8 +4,10 @@
 
 > A Free and Open Source Chordsheet Editor.
 
-This is a webapp to create chordsheets also referred to as chord charts.
-If you're only intereseted in the generation of the preview markup, check this repo: [`gldraphael/chordsheet`](https://github.com/gldraphael/chordsheet).
+[![Chordsheet Editor Screenshot](https://user-images.githubusercontent.com/10794213/34078314-ced158de-e33d-11e7-975a-80e07521a38e.png)](https://cseditor.com)
+
+This is a webapp to create chordsheets also referred to as chord charts. UI heavily inspired by Ghost.   
+_If you're intereseted in the generation of the preview markup, check this repo: [`gldraphael/chordsheet`](https://github.com/gldraphael/chordsheet)._
 
 ## Setting up your dev environment
 
